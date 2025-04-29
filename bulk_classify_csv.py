@@ -58,7 +58,7 @@ df['requirements'] = requirements_list
 df['other'] = other_list
 
 # Save to a new CSV
-output_csv = 'classified_jobs.csv'
+output_csv = 'output/classified_jobs.csv'
 df.to_csv(output_csv, index=False)
 
 print(f"✅ Saved results to {output_csv}")
